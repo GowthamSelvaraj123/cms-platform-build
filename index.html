@@ -8,133 +8,100 @@
 </head>
 <body class="bg-gray-100">
     <!-- Header start -->
-     <header class="bg-white shadow-md">
-        <div class="max-w-7xl mx-auto px-6 py-4">
+    <!-- Navbar -->
+    <header class="bg-white border-t-4 border-gray-700">
 
-            <div class="flex items-center justify-between">
+        <div class="px-4 py-6 flex items-center justify-between">
 
-                <!-- Logo -->
-                <div>
-                    <a href="#" class="text-2xl font-bold text-gray-900">
-                        MyLogo
-                    </a>
-                </div>
+            <!-- Logo -->
+            <a href="#" class="text-3xl font-bold text-gray-900">
+                MyLogo
+            </a>
 
-                <!-- Navigation -->
-                <nav class="hidden md:flex items-center gap-8">
+            <!-- Hamburger Button -->
+            <button
+                id="menuButton"
+                class="text-gray-700 text-2xl md:hidden"
+                onclick="toggleMenu()"
+                aria-label="Toggle navigation menu"
+            >
+                ☰
+            </button>
 
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600 transition">
-                        Home
-                    </a>
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8">
 
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600 transition">
-                        About
-                    </a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">
+                    Home
+                </a>
 
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600 transition">
-                        Services
-                    </a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">
+                    About
+                </a>
 
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600 transition">
-                        Contact
-                    </a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">
+                    Services
+                </a>
 
-                </nav>
+                <a href="#" class="text-gray-700 hover:text-blue-600">
+                    Contact
+                </a>
 
-                <!-- Right Side -->
-                <div class="hidden md:flex items-center gap-4">
-
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600">
-                        Login
-                    </a>
-
-                    <a href="#"
-                       class="bg-blue-600 text-white px-5 py-2 rounded-lg
-                              hover:bg-blue-700 transition">
-                        Sign Up
-                    </a>
-
-                </div>
-
-                <!-- Mobile Menu Button -->
-                <button
-                    class="md:hidden text-gray-700"
-                    aria-label="Open menu">
-
-                    ☰
-
-                </button>
-
-            </div>
+            </nav>
 
         </div>
+
+        <!-- Mobile Navigation -->
+        <nav
+            id="mobileMenu"
+            class="hidden md:hidden border-t border-gray-200 bg-white"
+        >
+
+            <a
+                href="#"
+                class="block px-6 py-4 text-gray-700 hover:bg-gray-100"
+            >
+                Home
+            </a>
+
+            <a
+                href="#"
+                class="block px-6 py-4 text-gray-700 hover:bg-gray-100"
+            >
+                About
+            </a>
+
+            <a
+                href="#"
+                class="block px-6 py-4 text-gray-700 hover:bg-gray-100"
+            >
+                Services
+            </a>
+
+            <a
+                href="#"
+                class="block px-6 py-4 text-gray-700 hover:bg-gray-100"
+            >
+                Contact
+            </a>
+
+        </nav>
+
     </header>
-     
+
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("mobileMenu");
+
+            menu.classList.toggle("hidden");
+        }
+    </script>
+    
      <!-- header end -->
 
-     <!-- Navigation start -->
-    <nav class="bg-white border-b border-gray-200">
-
-        <div class="max-w-7xl mx-auto px-6 py-4">
-
-            <div class="flex items-center justify-between">
-
-                <!-- Logo -->
-                <div>
-                    <a href="#" class="text-2xl font-bold text-blue-600">
-                        MyLogo
-                    </a>
-                </div>
-
-                <!-- Navigation Links -->
-                <div class="hidden md:flex items-center gap-8">
-
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600 font-medium">
-                        Home
-                    </a>
-
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600 font-medium">
-                        About
-                    </a>
-
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600 font-medium">
-                        Services
-                    </a>
-
-                    <a href="#"
-                       class="text-gray-700 hover:text-blue-600 font-medium">
-                        Contact
-                    </a>
-
-                </div>
-
-                <!-- Login Button -->
-                <div class="hidden md:block">
-                    <a href="#"
-                       class="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700">
-                        Login
-                    </a>
-                </div>
-
-                <!-- Mobile Menu Button -->
-                <button class="md:hidden text-gray-700">
-                    ☰
-                </button>
-
-            </div>
-
-        </div>
-
-    </nav>
-      <!-- Navigation end -->
+     
 
 <!-- Newsletter start -->
 <section class="bg-gray-100 py-12 px-6">
