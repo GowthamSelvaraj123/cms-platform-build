@@ -12,5 +12,5 @@ fetch("Footer.html")
         document.getElementById("about").innerHTML = data;
     })
     .catch(error => {
-        console.error("Footer loading error:", error);
+        console.error("About loading error:", error);
     });
