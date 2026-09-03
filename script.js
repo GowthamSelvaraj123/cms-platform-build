@@ -16,5 +16,15 @@ componends("about", "about.html");
 componends("service", "service.html");
 componends("footer", "Footer.html");
 
+// Contact form
+
+function openContact() {
+    document.getElementById("contactModal").classList.remove("hidden");
+}
+
+function closeContact() {
+    document.getElementById("contactModal").classList.add("hidden");
+}
+
 
 
