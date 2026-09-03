@@ -1,16 +1,20 @@
-fetch("Footer.html")
+/* loading sections */
+function componends(id, file){
+    fetch(file)
     .then(response => response.text())
     .then(data => {
-        document.getElementById("footer").innerHTML = data;
+        document.getElementById(id).innerHTML = data;
     })
     .catch(error => {
-        console.error("Footer loading error:", error);
+        console.error(`Error loading ${file}`, error);
     });
-    fetch("about.html")
-    .then(response => response.text())
-    .then(data => {
-        document.getElementById("about").innerHTML = data;
-    })
-    .catch(error => {
-        console.error("About loading error:", error);
-    });
+}
+
+/* load componends */
+
+componends("about", "about.html");
+componends("service", "service.html");
+componends("footer", "Footer.html");
+
+
+
