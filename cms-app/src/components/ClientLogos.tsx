@@ -1,14 +1,18 @@
+import React from 'react';
+import Link from 'next/link';
+
 export default function ClientLogos() {
   return (
-    <section className="py-16 bg-white border-b border-gray-100">
+
+    <section className="py-12 bg-gray-50 border-y border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            ClientLogos
-          </h2>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-            This is a placeholder for the ClientLogos component. Customize it with Tailwind CSS.
-          </p>
+        <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide mb-6">
+          ClientLogos
+        </p>
+        <div className="flex justify-center flex-wrap gap-8 md:gap-16">
+          {[1,2,3,4,5].map(i => (
+             <div key={i} className="text-xl font-black text-gray-400 uppercase tracking-widest">LOGO {i}</div>
+          ))}
         </div>
       </div>
     </section>
