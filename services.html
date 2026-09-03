@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - MyWebsite</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col min-h-screen">
+  
+  <!-- Header -->
+  <header class="bg-white border-t-4 border-gray-700 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
+      <a href="index.html" class="text-3xl font-bold text-gray-900">MyLogo</a>
+      <button id="menuButton" class="text-gray-700 text-2xl md:hidden" onclick="toggleMenu()" aria-label="Toggle navigation menu">☰</button>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="index.html" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
+        <a href="service.html" class="text-gray-700 hover:text-blue-600 font-medium">Services</a>
+        <a href="contact.html" class="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+      </nav>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="login.html" class="px-4 py-2 text-gray-700 font-medium hover:text-blue-600">Sign In</a>
+        <a href="signup.html" class="px-5 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 shadow-md">Sign Up</a>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <nav id="mobileMenu" class="hidden md:hidden border-t border-gray-200 bg-white">
+      <a href="index.html" class="block px-6 py-4 text-gray-700 hover:bg-gray-100">Home</a>
+      <a href="about.html" class="block px-6 py-4 text-gray-700 hover:bg-gray-100">About</a>
+      <a href="service.html" class="block px-6 py-4 text-gray-700 hover:bg-gray-100">Services</a>
+      <a href="contact.html" class="block px-6 py-4 text-gray-700 hover:bg-gray-100">Contact</a>
+      <a href="login.html" class="block px-6 py-4 text-gray-700 hover:bg-gray-100 border-t border-gray-100">Sign In</a>
+      <a href="signup.html" class="block mx-6 my-3 px-5 py-3 text-center bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    <!-- Hero Header -->
+    <section class="bg-gray-900 text-white py-20">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Services</h1>
+        <p class="text-gray-400 text-lg">Explore our Services page to learn more.</p>
+      </div>
+    </section>
+
+    <!-- Page Content -->
+    <section class="py-20">
+      <div class="max-w-4xl mx-auto px-6 bg-white p-10 rounded-2xl shadow-sm border border-gray-200">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Welcome to Services</h2>
+        <p class="text-gray-600 mb-4 leading-relaxed">
+          This is a generated page for the CMS. You can customize this section with your own content, images, and layout. 
+        </p>
+        <p class="text-gray-600 leading-relaxed mb-8">
+          The goal is to create simple, reliable and user-friendly experiences. We provide modern digital solutions designed to help businesses and individuals achieve their goals.
+        </p>
+        <a href="contact.html" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition shadow-md">
+          Get in Touch
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 mt-auto border-t-4 border-gray-700">
+    <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-6">
+      <p>© 2026 MyWebsite. All rights reserved.</p>
+      <div class="flex flex-wrap justify-center gap-6 text-sm font-medium">
+        <a href="privacy-policy.html" class="hover:text-white transition">Privacy Policy</a>
+        <a href="terms-conditions.html" class="hover:text-white transition">Terms & Conditions</a>
+        <a href="cookie-policy.html" class="hover:text-white transition">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    }
+  </script>
+</body>
+</html>
