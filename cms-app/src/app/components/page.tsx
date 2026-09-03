@@ -38,6 +38,32 @@ import SocialLinks from "@/components/SocialLinks";
 import CustomHTML from "@/components/CustomHTML";
 import FormBuilder from "@/components/FormBuilder";
 import FooterCTA from "@/components/FooterCTA";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import TabsSection from "@/components/TabsSection";
+import ModalPopup from "@/components/ModalPopup";
+import SearchFilterBar from "@/components/SearchFilterBar";
+import Pagination from "@/components/Pagination";
+import ReviewBadges from "@/components/ReviewBadges";
+import Certifications from "@/components/Certifications";
+import AnnouncementBar from "@/components/AnnouncementBar";
+import CookieConsent from "@/components/CookieConsent";
+import NarrowCenteredColumn from "@/components/NarrowCenteredColumn";
+import CenteredBanner from "@/components/CenteredBanner";
+import FullWidthBanner from "@/components/FullWidthBanner";
+import Split5050 from "@/components/Split5050";
+import SidebarLeft3070 from "@/components/SidebarLeft3070";
+import SidebarRight7030 from "@/components/SidebarRight7030";
+import Grid3Column from "@/components/Grid3Column";
+import Grid4Column from "@/components/Grid4Column";
+import MasonryGrid from "@/components/MasonryGrid";
+import BentoGrid from "@/components/BentoGrid";
+import HeroSlider from "@/components/HeroSlider";
+import BeforeAfterSlider from "@/components/BeforeAfterSlider";
+import TestimonialCarousel from "@/components/TestimonialCarousel";
+import CardCarousel from "@/components/CardCarousel";
+import LogoMarquee from "@/components/LogoMarquee";
+import LightboxGallery from "@/components/LightboxGallery";
+import PDFViewer from "@/components/PDFViewer";
 
 export default function ComponentsPage() {
   return (
@@ -85,6 +111,32 @@ export default function ComponentsPage() {
 <div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">CustomHTML</h2><CustomHTML /></div>
 <div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">FormBuilder</h2><FormBuilder /></div>
 <div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">FooterCTA</h2><FooterCTA /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">Breadcrumbs</h2><Breadcrumbs /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">TabsSection</h2><TabsSection /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">ModalPopup</h2><ModalPopup /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">SearchFilterBar</h2><SearchFilterBar /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">Pagination</h2><Pagination /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">ReviewBadges</h2><ReviewBadges /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">Certifications</h2><Certifications /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">AnnouncementBar</h2><AnnouncementBar /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">CookieConsent</h2><CookieConsent /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">NarrowCenteredColumn</h2><NarrowCenteredColumn /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">CenteredBanner</h2><CenteredBanner /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">FullWidthBanner</h2><FullWidthBanner /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">Split5050</h2><Split5050 /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">SidebarLeft3070</h2><SidebarLeft3070 /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">SidebarRight7030</h2><SidebarRight7030 /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">Grid3Column</h2><Grid3Column /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">Grid4Column</h2><Grid4Column /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">MasonryGrid</h2><MasonryGrid /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">BentoGrid</h2><BentoGrid /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">HeroSlider</h2><HeroSlider /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">BeforeAfterSlider</h2><BeforeAfterSlider /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">TestimonialCarousel</h2><TestimonialCarousel /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">CardCarousel</h2><CardCarousel /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">LogoMarquee</h2><LogoMarquee /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">LightboxGallery</h2><LightboxGallery /></div>
+<div className="mb-12 border-b-4 border-dashed border-gray-300 pb-12"><h2 className="text-center text-gray-400 uppercase tracking-widest mb-4">PDFViewer</h2><PDFViewer /></div>
     </main>
   );
 }

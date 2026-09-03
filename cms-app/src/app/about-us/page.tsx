@@ -1,6 +1,7 @@
 import HeroSection from '@/components/HeroSection';
 import AboutIntro from '@/components/AboutIntro';
 import RichText from '@/components/RichText';
+import Dummy from '@/components/Dummy';
 import Timeline from '@/components/Timeline';
 import StatisticsCounters from '@/components/StatisticsCounters';
 import TeamGrid from '@/components/TeamGrid';
@@ -18,6 +19,7 @@ export default function aboutusPage() {
       <TeamGrid />
       <FeaturesGrid />
       <CTABanner />
+      <Dummy />
     </main>
   );
 }

@@ -3,7 +3,6 @@ import Link from 'next/link';
 
 export default function AboutIntro() {
   return (
-
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between  gap-12">
