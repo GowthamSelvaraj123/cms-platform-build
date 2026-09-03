@@ -14,7 +14,7 @@ export default function FeaturesGrid() {
           {[1, 2, 3].map((item) => (
             <div key={item} className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
               
-            <div className="p-6 flex flex-col items-center text-center">
+            <div className="p-8 flex flex-col items-center text-center">
               <div className="h-12 w-12 bg-gray-200 text-gray-700 rounded-full flex items-center justify-center mb-4">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
               </div>

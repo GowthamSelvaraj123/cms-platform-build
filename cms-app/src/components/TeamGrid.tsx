@@ -15,7 +15,7 @@ export default function TeamGrid() {
             <div key={item} className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
               
             <img src="https://placehold.co/400x300/eeeeee/999999?text=Thumbnail" alt="Thumbnail" className="w-full h-48 object-cover rounded-t-xl" />
-            <div className="p-6">
+            <div className="p-8">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Item Title</h3>
               <p className="text-gray-500 text-sm">A brief description of this item. Click to read more.</p>
               <div className="mt-4 text-gray-900 font-medium text-sm hover:underline">Read more &rarr;</div>

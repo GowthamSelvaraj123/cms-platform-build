@@ -14,7 +14,7 @@ export default function Testimonials() {
           {[1, 2, 3].map((item) => (
             <div key={item} className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition overflow-hidden">
               
-            <div className="p-6">
+            <div className="p-8">
               <p className="text-gray-600 italic">"This is an amazing service! We have seen a 200% increase in productivity since we started using this platform."</p>
               <div className="mt-6 flex items-center">
                 <img src="https://placehold.co/100x100/eeeeee/999999?text=Avatar" alt="Avatar" className="h-10 w-10 rounded-full" />

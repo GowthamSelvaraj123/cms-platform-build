@@ -21,6 +21,7 @@ export default function Header() {
             <Link href="/portfolio" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Portfolio</Link>
             <Link href="/blog" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Blog</Link>
             <Link href="/contact-us" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Contact</Link>
+            <Link href="/components" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Components</Link>
           </nav>
 
           {/* Call to Action */}
