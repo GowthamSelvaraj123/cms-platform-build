@@ -235,8 +235,8 @@
   <!-- about end -->
 
   <!-- Service start -->
-   <div id="service"></div>
-   <!-- service end -->
+  <div id="service"></div>
+  <!-- service end -->
 
 
   <!-- ================= STATS SECTION ================= -->
@@ -587,6 +587,71 @@
     </div>
   </section>
   <!-- Newsletter end -->
+  <!-- Contact Modal -->
+  <div id="contactModal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+
+    <div class="bg-white w-full max-w-lg mx-4 p-8 rounded-xl shadow-xl relative">
+
+      <!-- Close Button -->
+      <button onclick="closeContact()" class="absolute top-4 right-4 text-gray-500 hover:text-black text-2xl">
+        &times;
+      </button>
+
+      <h2 class="text-2xl font-bold text-center mb-6">
+        Contact Us
+      </h2>
+
+      <form>
+
+        <!-- Name -->
+        <div class="mb-4">
+          <label class="block mb-2 font-medium">
+            Name
+          </label>
+
+          <input type="text" name="name" placeholder="Enter your name" required
+            class="w-full border border-gray-300 rounded-lg px-4 py-3">
+        </div>
+
+        <!-- Email -->
+        <div class="mb-4">
+          <label class="block mb-2 font-medium">
+            Email
+          </label>
+
+          <input type="email" name="email" placeholder="Enter your email" required
+            class="w-full border border-gray-300 rounded-lg px-4 py-3">
+        </div>
+
+        <!-- Phone -->
+        <div class="mb-4">
+          <label class="block mb-2 font-medium">
+            Phone
+          </label>
+
+          <input type="tel" name="phone" placeholder="Enter your phone number" required
+            class="w-full border border-gray-300 rounded-lg px-4 py-3">
+        </div>
+
+        <!-- Message -->
+        <div class="mb-6">
+          <label class="block mb-2 font-medium">
+            Message
+          </label>
+
+          <textarea name="message" rows="4" placeholder="Enter your message" required
+            class="w-full border border-gray-300 rounded-lg px-4 py-3"></textarea>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
+          Submit
+        </button>
+
+      </form>
+
+    </div>
+  </div>
   <!-- Footer will load here -->
   <div id="footer"></div>
 
