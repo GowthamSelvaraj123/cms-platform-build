@@ -1,5 +1,5 @@
-import PageHeader from '@/components/PageHeader';
-import BlogGrid from '@/components/BlogGrid';
+import PageHeader from '@/components/sections/PageHeader';
+import BlogGrid from '@/components/sections/BlogGrid';
 
 export default function searchPage() {
   return (

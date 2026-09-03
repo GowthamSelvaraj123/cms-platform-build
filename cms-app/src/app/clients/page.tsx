@@ -1,9 +1,9 @@
-import HeroSection from '@/components/HeroSection';
-import ClientLogos from '@/components/ClientLogos';
-import Industries from '@/components/Industries';
-import Testimonials from '@/components/Testimonials';
-import CaseStudyGrid from '@/components/CaseStudyGrid';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import ClientLogos from '@/components/sections/ClientLogos';
+import Industries from '@/components/sections/Industries';
+import Testimonials from '@/components/sections/Testimonials';
+import CaseStudyGrid from '@/components/sections/CaseStudyGrid';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function clientsPage() {
   return (

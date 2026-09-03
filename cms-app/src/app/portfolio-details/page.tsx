@@ -1,11 +1,11 @@
-import HeroSection from '@/components/HeroSection';
-import RichText from '@/components/RichText';
-import FeaturesGrid from '@/components/FeaturesGrid';
-import Technologies from '@/components/Technologies';
-import ImageGallery from '@/components/ImageGallery';
-import Testimonials from '@/components/Testimonials';
-import RelatedContent from '@/components/RelatedContent';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import RichText from '@/components/sections/RichText';
+import FeaturesGrid from '@/components/sections/FeaturesGrid';
+import Technologies from '@/components/sections/Technologies';
+import ImageGallery from '@/components/ui/ImageGallery';
+import Testimonials from '@/components/sections/Testimonials';
+import RelatedContent from '@/components/sections/RelatedContent';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function portfoliodetailsPage() {
   return (

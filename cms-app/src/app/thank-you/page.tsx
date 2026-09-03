@@ -1,5 +1,5 @@
-import CTABanner from '@/components/CTABanner';
-import RelatedContent from '@/components/RelatedContent';
+import CTABanner from '@/components/sections/CTABanner';
+import RelatedContent from '@/components/sections/RelatedContent';
 
 export default function thankyouPage() {
   return (

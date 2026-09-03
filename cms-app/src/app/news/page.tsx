@@ -1,6 +1,6 @@
-import HeroSection from '@/components/HeroSection';
-import NewsGrid from '@/components/NewsGrid';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import NewsGrid from '@/components/sections/NewsGrid';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function newsPage() {
   return (

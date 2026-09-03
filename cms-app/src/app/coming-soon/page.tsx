@@ -1,6 +1,6 @@
-import HeroSection from '@/components/HeroSection';
-import Newsletter from '@/components/Newsletter';
-import SocialLinks from '@/components/SocialLinks';
+import HeroSection from '@/components/sections/HeroSection';
+import Newsletter from '@/components/ui/Newsletter';
+import SocialLinks from '@/components/ui/SocialLinks';
 
 export default function comingsoonPage() {
   return (

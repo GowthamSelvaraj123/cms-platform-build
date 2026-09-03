@@ -1,6 +1,6 @@
-import HeroSection from '@/components/HeroSection';
-import DownloadList from '@/components/DownloadList';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import DownloadList from '@/components/ui/DownloadList';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function downloadsPage() {
   return (

@@ -1,6 +1,6 @@
-import PageHeader from '@/components/PageHeader';
-import RichText from '@/components/RichText';
-import ContactInformation from '@/components/ContactInformation';
+import PageHeader from '@/components/sections/PageHeader';
+import RichText from '@/components/sections/RichText';
+import ContactInformation from '@/components/sections/ContactInformation';
 
 export default function refundpolicyPage() {
   return (

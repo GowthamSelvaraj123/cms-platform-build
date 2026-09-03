@@ -1,5 +1,5 @@
-import PageHeader from '@/components/PageHeader';
-import RichText from '@/components/RichText';
+import PageHeader from '@/components/sections/PageHeader';
+import RichText from '@/components/sections/RichText';
 
 export default function sitemapPage() {
   return (

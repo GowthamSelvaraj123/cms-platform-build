@@ -1,8 +1,8 @@
-import PageHeader from '@/components/PageHeader';
-import RichText from '@/components/RichText';
-import SocialLinks from '@/components/SocialLinks';
-import RelatedContent from '@/components/RelatedContent';
-import CTABanner from '@/components/CTABanner';
+import PageHeader from '@/components/sections/PageHeader';
+import RichText from '@/components/sections/RichText';
+import SocialLinks from '@/components/ui/SocialLinks';
+import RelatedContent from '@/components/sections/RelatedContent';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function blogdetailsPage() {
   return (

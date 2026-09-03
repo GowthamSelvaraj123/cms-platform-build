@@ -1,9 +1,9 @@
-import HeroSection from '@/components/HeroSection';
-import ContactInformation from '@/components/ContactInformation';
-import Map from '@/components/Map';
-import ContactForm from '@/components/ContactForm';
-import SocialLinks from '@/components/SocialLinks';
-import FAQAccordion from '@/components/FAQAccordion';
+import HeroSection from '@/components/sections/HeroSection';
+import ContactInformation from '@/components/sections/ContactInformation';
+import Map from '@/components/ui/Map';
+import ContactForm from '@/components/ui/ContactForm';
+import SocialLinks from '@/components/ui/SocialLinks';
+import FAQAccordion from '@/components/sections/FAQAccordion';
 
 export default function contactusPage() {
   return (

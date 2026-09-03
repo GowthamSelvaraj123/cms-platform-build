@@ -1,10 +1,10 @@
-import HeroSection from '@/components/HeroSection';
-import ProductsGrid from '@/components/ProductsGrid';
-import FeaturesGrid from '@/components/FeaturesGrid';
-import Benefits from '@/components/Benefits';
-import ComparisonTable from '@/components/ComparisonTable';
-import Testimonials from '@/components/Testimonials';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import ProductsGrid from '@/components/sections/ProductsGrid';
+import FeaturesGrid from '@/components/sections/FeaturesGrid';
+import Benefits from '@/components/sections/Benefits';
+import ComparisonTable from '@/components/ui/ComparisonTable';
+import Testimonials from '@/components/sections/Testimonials';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function productsPage() {
   return (

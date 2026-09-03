@@ -1,8 +1,8 @@
-import HeroSection from '@/components/HeroSection';
-import FeaturesGrid from '@/components/FeaturesGrid';
-import Benefits from '@/components/Benefits';
-import FAQAccordion from '@/components/FAQAccordion';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import FeaturesGrid from '@/components/sections/FeaturesGrid';
+import Benefits from '@/components/sections/Benefits';
+import FAQAccordion from '@/components/sections/FAQAccordion';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function careersPage() {
   return (

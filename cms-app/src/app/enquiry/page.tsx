@@ -1,7 +1,7 @@
-import HeroSection from '@/components/HeroSection';
-import FormBuilder from '@/components/FormBuilder';
-import ContactInformation from '@/components/ContactInformation';
-import FAQAccordion from '@/components/FAQAccordion';
+import HeroSection from '@/components/sections/HeroSection';
+import FormBuilder from '@/components/ui/FormBuilder';
+import ContactInformation from '@/components/sections/ContactInformation';
+import FAQAccordion from '@/components/sections/FAQAccordion';
 
 export default function enquiryPage() {
   return (

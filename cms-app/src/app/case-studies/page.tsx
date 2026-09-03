@@ -1,7 +1,7 @@
-import HeroSection from '@/components/HeroSection';
-import CaseStudyGrid from '@/components/CaseStudyGrid';
-import Industries from '@/components/Industries';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import CaseStudyGrid from '@/components/sections/CaseStudyGrid';
+import Industries from '@/components/sections/Industries';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function casestudiesPage() {
   return (

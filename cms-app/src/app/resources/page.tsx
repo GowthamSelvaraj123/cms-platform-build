@@ -1,7 +1,7 @@
-import HeroSection from '@/components/HeroSection';
-import BlogGrid from '@/components/BlogGrid';
-import Newsletter from '@/components/Newsletter';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import BlogGrid from '@/components/sections/BlogGrid';
+import Newsletter from '@/components/ui/Newsletter';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function resourcesPage() {
   return (

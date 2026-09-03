@@ -1,7 +1,7 @@
-import PageHeader from '@/components/PageHeader';
-import TeamProfile from '@/components/TeamProfile';
-import SocialLinks from '@/components/SocialLinks';
-import RelatedContent from '@/components/RelatedContent';
+import PageHeader from '@/components/sections/PageHeader';
+import TeamProfile from '@/components/sections/TeamProfile';
+import SocialLinks from '@/components/ui/SocialLinks';
+import RelatedContent from '@/components/sections/RelatedContent';
 
 export default function teammemberdetailsPage() {
   return (

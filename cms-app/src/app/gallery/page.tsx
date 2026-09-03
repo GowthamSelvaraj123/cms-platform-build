@@ -1,7 +1,7 @@
-import HeroSection from '@/components/HeroSection';
-import ImageGallery from '@/components/ImageGallery';
-import VideoSection from '@/components/VideoSection';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import ImageGallery from '@/components/ui/ImageGallery';
+import VideoSection from '@/components/sections/VideoSection';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function galleryPage() {
   return (

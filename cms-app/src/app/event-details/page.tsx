@@ -1,8 +1,8 @@
-import PageHeader from '@/components/PageHeader';
-import RichText from '@/components/RichText';
-import ImageGallery from '@/components/ImageGallery';
-import FormBuilder from '@/components/FormBuilder';
-import RelatedContent from '@/components/RelatedContent';
+import PageHeader from '@/components/sections/PageHeader';
+import RichText from '@/components/sections/RichText';
+import ImageGallery from '@/components/ui/ImageGallery';
+import FormBuilder from '@/components/ui/FormBuilder';
+import RelatedContent from '@/components/sections/RelatedContent';
 
 export default function eventdetailsPage() {
   return (

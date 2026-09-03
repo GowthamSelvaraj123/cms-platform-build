@@ -1,6 +1,6 @@
-import HeroSection from '@/components/HeroSection';
-import EventsGrid from '@/components/EventsGrid';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import EventsGrid from '@/components/sections/EventsGrid';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function eventsPage() {
   return (

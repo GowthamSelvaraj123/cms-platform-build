@@ -1,8 +1,8 @@
-import HeroSection from '@/components/HeroSection';
-import Testimonials from '@/components/Testimonials';
-import VideoSection from '@/components/VideoSection';
-import ClientLogos from '@/components/ClientLogos';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import Testimonials from '@/components/sections/Testimonials';
+import VideoSection from '@/components/sections/VideoSection';
+import ClientLogos from '@/components/sections/ClientLogos';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function testimonialsPage() {
   return (

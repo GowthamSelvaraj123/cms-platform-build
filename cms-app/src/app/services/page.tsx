@@ -1,12 +1,12 @@
-import HeroSection from '@/components/HeroSection';
-import ServicesGrid from '@/components/ServicesGrid';
-import Process from '@/components/Process';
-import Benefits from '@/components/Benefits';
-import Industries from '@/components/Industries';
-import Technologies from '@/components/Technologies';
-import Testimonials from '@/components/Testimonials';
-import FAQAccordion from '@/components/FAQAccordion';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import ServicesGrid from '@/components/sections/ServicesGrid';
+import Process from '@/components/sections/Process';
+import Benefits from '@/components/sections/Benefits';
+import Industries from '@/components/sections/Industries';
+import Technologies from '@/components/sections/Technologies';
+import Testimonials from '@/components/sections/Testimonials';
+import FAQAccordion from '@/components/sections/FAQAccordion';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function servicesPage() {
   return (

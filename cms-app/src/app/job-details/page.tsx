@@ -1,9 +1,9 @@
-import PageHeader from '@/components/PageHeader';
-import RichText from '@/components/RichText';
-import FeaturesGrid from '@/components/FeaturesGrid';
-import Benefits from '@/components/Benefits';
-import FormBuilder from '@/components/FormBuilder';
-import RelatedContent from '@/components/RelatedContent';
+import PageHeader from '@/components/sections/PageHeader';
+import RichText from '@/components/sections/RichText';
+import FeaturesGrid from '@/components/sections/FeaturesGrid';
+import Benefits from '@/components/sections/Benefits';
+import FormBuilder from '@/components/ui/FormBuilder';
+import RelatedContent from '@/components/sections/RelatedContent';
 
 export default function jobdetailsPage() {
   return (

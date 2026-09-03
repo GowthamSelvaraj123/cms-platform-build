@@ -1,8 +1,8 @@
-import HeroSection from '@/components/HeroSection';
-import Benefits from '@/components/Benefits';
-import PartnersLogos from '@/components/PartnersLogos';
-import Process from '@/components/Process';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import Benefits from '@/components/sections/Benefits';
+import PartnersLogos from '@/components/sections/PartnersLogos';
+import Process from '@/components/sections/Process';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function partnersPage() {
   return (

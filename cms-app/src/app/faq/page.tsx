@@ -1,6 +1,6 @@
-import HeroSection from '@/components/HeroSection';
-import FAQAccordion from '@/components/FAQAccordion';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import FAQAccordion from '@/components/sections/FAQAccordion';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function faqPage() {
   return (

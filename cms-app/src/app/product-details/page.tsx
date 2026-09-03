@@ -1,12 +1,12 @@
-import HeroSection from '@/components/HeroSection';
-import RichText from '@/components/RichText';
-import FeaturesGrid from '@/components/FeaturesGrid';
-import ImageGallery from '@/components/ImageGallery';
-import Benefits from '@/components/Benefits';
-import Process from '@/components/Process';
-import PricingTable from '@/components/PricingTable';
-import FAQAccordion from '@/components/FAQAccordion';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import RichText from '@/components/sections/RichText';
+import FeaturesGrid from '@/components/sections/FeaturesGrid';
+import ImageGallery from '@/components/ui/ImageGallery';
+import Benefits from '@/components/sections/Benefits';
+import Process from '@/components/sections/Process';
+import PricingTable from '@/components/ui/PricingTable';
+import FAQAccordion from '@/components/sections/FAQAccordion';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function productdetailsPage() {
   return (

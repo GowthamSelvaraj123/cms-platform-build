@@ -1,15 +1,15 @@
-import HeroSection from '@/components/HeroSection';
-import AboutIntro from '@/components/AboutIntro';
-import ServicesGrid from '@/components/ServicesGrid';
-import ProductsGrid from '@/components/ProductsGrid';
-import FeaturesGrid from '@/components/FeaturesGrid';
-import StatisticsCounters from '@/components/StatisticsCounters';
-import PortfolioGrid from '@/components/PortfolioGrid';
-import Testimonials from '@/components/Testimonials';
-import ClientLogos from '@/components/ClientLogos';
-import BlogGrid from '@/components/BlogGrid';
-import CTABanner from '@/components/CTABanner';
-import ContactInformation from '@/components/ContactInformation';
+import HeroSection from '@/components/sections/HeroSection';
+import AboutIntro from '@/components/sections/AboutIntro';
+import ServicesGrid from '@/components/sections/ServicesGrid';
+import ProductsGrid from '@/components/sections/ProductsGrid';
+import FeaturesGrid from '@/components/sections/FeaturesGrid';
+import StatisticsCounters from '@/components/ui/StatisticsCounters';
+import PortfolioGrid from '@/components/sections/PortfolioGrid';
+import Testimonials from '@/components/sections/Testimonials';
+import ClientLogos from '@/components/sections/ClientLogos';
+import BlogGrid from '@/components/sections/BlogGrid';
+import CTABanner from '@/components/sections/CTABanner';
+import ContactInformation from '@/components/sections/ContactInformation';
 
 export default function HomePage() {
   return (

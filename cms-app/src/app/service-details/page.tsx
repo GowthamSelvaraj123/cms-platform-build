@@ -1,12 +1,12 @@
-import HeroSection from '@/components/HeroSection';
-import RichText from '@/components/RichText';
-import FeaturesGrid from '@/components/FeaturesGrid';
-import Benefits from '@/components/Benefits';
-import Process from '@/components/Process';
-import Technologies from '@/components/Technologies';
-import CaseStudyGrid from '@/components/CaseStudyGrid';
-import FAQAccordion from '@/components/FAQAccordion';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import RichText from '@/components/sections/RichText';
+import FeaturesGrid from '@/components/sections/FeaturesGrid';
+import Benefits from '@/components/sections/Benefits';
+import Process from '@/components/sections/Process';
+import Technologies from '@/components/sections/Technologies';
+import CaseStudyGrid from '@/components/sections/CaseStudyGrid';
+import FAQAccordion from '@/components/sections/FAQAccordion';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function servicedetailsPage() {
   return (

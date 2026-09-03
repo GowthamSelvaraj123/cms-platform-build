@@ -1,6 +1,6 @@
-import HeroSection from '@/components/HeroSection';
-import TeamGrid from '@/components/TeamGrid';
-import CTABanner from '@/components/CTABanner';
+import HeroSection from '@/components/sections/HeroSection';
+import TeamGrid from '@/components/sections/TeamGrid';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function teamPage() {
   return (

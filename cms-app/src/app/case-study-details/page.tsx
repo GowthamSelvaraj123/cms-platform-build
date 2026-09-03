@@ -1,10 +1,10 @@
-import PageHeader from '@/components/PageHeader';
-import RichText from '@/components/RichText';
-import Process from '@/components/Process';
-import FeaturesGrid from '@/components/FeaturesGrid';
-import Testimonials from '@/components/Testimonials';
-import ImageGallery from '@/components/ImageGallery';
-import CTABanner from '@/components/CTABanner';
+import PageHeader from '@/components/sections/PageHeader';
+import RichText from '@/components/sections/RichText';
+import Process from '@/components/sections/Process';
+import FeaturesGrid from '@/components/sections/FeaturesGrid';
+import Testimonials from '@/components/sections/Testimonials';
+import ImageGallery from '@/components/ui/ImageGallery';
+import CTABanner from '@/components/sections/CTABanner';
 
 export default function casestudydetailsPage() {
   return (

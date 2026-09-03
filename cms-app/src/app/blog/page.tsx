@@ -1,6 +1,6 @@
-import HeroSection from '@/components/HeroSection';
-import BlogGrid from '@/components/BlogGrid';
-import Newsletter from '@/components/Newsletter';
+import HeroSection from '@/components/sections/HeroSection';
+import BlogGrid from '@/components/sections/BlogGrid';
+import Newsletter from '@/components/ui/Newsletter';
 
 export default function blogPage() {
   return (
