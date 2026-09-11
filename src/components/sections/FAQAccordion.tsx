@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import React, { useState } from "react";
@@ -195,6 +196,32 @@ export default function FAQAccordion() {
 
         </div>
 
+=======
+import React from 'react';
+import Link from 'next/link';
+
+export default function FAQAccordion() {
+  return (
+
+    <section className="py-16 bg-gray-50">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl font-extrabold text-gray-900">FAQAccordion</h2>
+        </div>
+        <div className="space-y-6">
+          {[1,2,3,4].map(item => (
+            <div key={item} className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+              <h3 className="text-lg font-medium text-gray-900 flex items-center">
+                
+                Item / Question {item}
+              </h3>
+              <p className="text-gray-500 mt-2">
+                This is the expanded content for this list item. It contains necessary details and explanations.
+              </p>
+            </div>
+          ))}
+        </div>
+>>>>>>> 1deaf430c248b41456774811e32802fcf6ed3a89
       </div>
     </section>
   );
