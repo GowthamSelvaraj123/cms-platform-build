@@ -14,7 +14,7 @@ import ContactInformation from '@/components/sections/ContactInformation';
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center justify-between test">
       <HeroSection />
       <AboutIntro />
       <ServicesGrid />
